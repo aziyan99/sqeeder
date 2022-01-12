@@ -11,13 +11,13 @@ def main(argv):
         opts, args = getopt.getopt(argv, "hf:o:", ["ffile=", "ofile="])
         if len(opts) != 2:
             print(
-                'Invalid command: \nUsage: python3 app.py -f <sql file> -o <output file>')
+                'Invalid command: \nUsage: python3 main.py -f <sql file> -o <output file>')
     except getopt.GetoptError:
-        print('Invalid command: \nUsage: python3 app.py -f <sql file> -o <output file>')
+        print('Invalid command: \nUsage: python3 main.py -f <sql file> -o <output file>')
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print('Usage: python3 app.py -f <sql file> -o <output file>')
+            print('Usage: python3 main.py -f <sql file> -o <output file>')
             sys.exit()
         elif opt in ("-f"):
             inputFile = arg
