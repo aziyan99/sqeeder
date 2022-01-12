@@ -6,6 +6,7 @@ To use the app simple clone the repository into local or just donwload the zip f
 ```python
 python3 main.py -f <sqlfile.sql> -o <theseederfile.php>
 ```
+If youre in windows machine and already installed python 3 just use `python` instead of `python3`.
 ### Available Command
 Currently, there is only two command :) 
 1. `python3 main.py -h` for help.
@@ -17,7 +18,7 @@ The app work by parsing the sql file line by line and the get the table structur
 INSERT INTO users (id, name, email) VALUES (1, 'John Doe', 'john@example.com'),
 (2, 'Doe John', 'doe@example.com'),
 (3, 'Marie Doe', 'marie@example.com'),
-(4, 'Marie John', 'mriejohn@example.com')
+(4, 'Marie John', 'mriejohn@example.com');
 ```
 Because the app read the sql file make sure there is no empty line before or after the insert statement.
 
