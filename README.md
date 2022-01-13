@@ -1,5 +1,5 @@
 # SQEEDER
-SQEEDEL is Python3 simple command line app to convert SQL insert statement to the Laravel Seeder. This project was built because sometime I am very tired to manually create seeder and add the insert statement of pre-use data in laravel seeder. 
+SQEEDEL is Python3 simple command line app to convert SQL insert statement to the Laravel Seeder. This project was built because sometime I am to lazy to manually create seeder and add the insert statement of pre-use data in laravel seeder. 
 
 ## Usage
 To use the app simple clone the repository into local or just donwload the zip file extract it and run with. Make sure you already installed python 3 on your machine.
@@ -26,7 +26,8 @@ Because the app read the sql file make sure there is no empty line before or aft
 The app using two builtin library of python : 
 1. sys
 2. getopt
-That means, we don;t need to install any library to use the app.
+
+That means, we don't need to install any library to use the app.
 
 ## Contributing
 Any contributing is allowed to the project to make it better.
